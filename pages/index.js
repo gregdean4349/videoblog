@@ -40,7 +40,7 @@ export default function Home() {
           {/* Top Section */}
           <div className='w-full h-[70%] grid grid-cols-3 gap-2 p-2'>
             {/* Video Container */}
-            <div className='sm:col-span-6 md:col-span-2 p-2 rounded-lg overflow-hidden flex items-center justify-center'>
+            <div className='sm:col-span-6 md:col-span-2 p-2 rounded-lg overflow-hidden flex items-center justify-center bg-slate-600'>
               <VideoContainer />
             </div>
             {/* Recommended List */}

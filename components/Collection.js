@@ -7,7 +7,7 @@ function Collection({ imgSrc }) {
       <img src={imgSrc} alt='' />
       <div className='flex items-center justify-center w-full h-[40px] bg-collectionBg absolute bottom-0 px-2 '>
         <h2 className='text-textColor text-[17px] font-bold tracking-wide'>
-          Category
+          Nature
         </h2>
       </div>
     </div>

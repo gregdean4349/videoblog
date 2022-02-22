@@ -11,7 +11,9 @@ function MenuItem({ icon, name }) {
         <p
           className={`text-mainBg ml-1 ${
             name === 'Dashboard' && 'text-green-700 font-extrabold'
-          } ${name === 'Logout' && 'text-red-700 font-extrabold'}`}
+          } ${
+            name === 'Logout' && 'text-logoColor bg-searchBg rounded-md px-5'
+          }`}
         >
           {name}
         </p>

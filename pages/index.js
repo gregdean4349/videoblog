@@ -61,7 +61,7 @@ export default function Home() {
     );
     gsap.from(
       '#scrollContainer div',
-      { yPercent: 100, opacity: 0, stagger: 0.1, ease: 'back.out(1.7)' },
+      { xPercent: -100, opacity: 0, stagger: 0.1, ease: 'back.out(1.7)' },
       'Start'
     );
   }, [tl]);
